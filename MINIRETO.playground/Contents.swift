@@ -3,22 +3,21 @@
 import UIKit
 
 
-//*************************Divisible entre 5
-/*
-for i in 0...100 {
-    
-    var number = i
-    number = number % 10
-    if number == 0 || number == 5{
-    
-        print("\(i) Bingo!!!")
-    }
 
+//*************************Divisible entre 5
+
+for i in 0...100{
+    
+    if i % 5 == 0{
+        print("\(i) Bingo")
+    }
+    
 }
-*/
+
+print("\t")
 
 //*************************Numeros pares
-/*
+
 for i in 0...100 {
     
     if i % 2 == 0{
@@ -27,10 +26,10 @@ for i in 0...100 {
     
     }
 }
-*/
 
+print("\t")
 //*************************Numeros impares
-/*
+
 for i in 0...100 {
     
     if i % 2 != 0{
@@ -39,18 +38,30 @@ for i in 0...100 {
         
     }
 }
-*/
+
+print("\t")
 
 //*************************Rango entre 30 y 40
+
 for i in 0...100{
     
-    switch i{
-        
-    case 30...40:
-    
+    if i >= 30 && i <= 40{
         print("\(i) Viva Swift!!!")
-        
-    default:
-        print(".")
     }
+    
 }
+
+//Todo en uno
+
+/*
+for i in 0...100{
+
+    if i % 5 == 0{ print("\(i) Bingo")}
+    if i % 2 == 0{print("\(i) par!!!")}
+    if i % 2 != 0{print("\(i) impar!!!")}
+    if i >= 30 && i <= 40{print("\(i) Viva Swift!!!")}
+
+}
+
+
+*/
