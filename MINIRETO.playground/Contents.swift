@@ -2,7 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
 
 //*************************Divisible entre 5
 /*
@@ -54,5 +53,4 @@ for i in 0...100{
     default:
         print(".")
     }
-    
 }
